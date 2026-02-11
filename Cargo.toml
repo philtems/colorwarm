@@ -1,0 +1,13 @@
+[package]
+name = "colorwarm"
+version = "1.3.0"
+authors = ["Philippe TEMESI"]
+edition = "2021"
+
+[dependencies]
+termios = "0.3"
+chrono = "0.4"
+daemonize = "0.5"
+x11rb = { version = "0.12", features = ["randr"] }
+libc = "0.2"
+clap = { version = "4.0", features = ["derive"] }
