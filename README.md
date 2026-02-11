@@ -40,16 +40,17 @@ Prerequisites
     Rust and Cargo (for building from source)
 
 Build from source
-bash
 
 git clone https://github.com/philtems/colorwarm.git
+
 cd colorwarm
+
 cargo build --release
+
 sudo cp target/release/colorwarm /usr/local/bin/
 
 Usage
 Automatic mode (recommended)
-bash
 
 # Run once (interactive, press ESC to exit)
 colorwarm
@@ -89,7 +90,6 @@ colorwarm xsct -h
 Auto-start with your desktop
 
 Add to your startup applications (GNOME, KDE, XFCE, etc.):
-text
 
 /usr/local/bin/colorwarm -d
 
@@ -136,13 +136,11 @@ Technical Details
 
 Command Line Options
 Option	Description
+
 -v, --verbose	Display detailed information about current settings
 -d, --daemon	Run in background, log to /tmp/colorwarm.log
 -h, --help	Show help message
-License
 
-This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
-Author
 
 Philippe TEMESI
 https://www.tems.be
@@ -150,4 +148,3 @@ https://www.tems.be
 Acknowledgments
 
 Inspired by the original xsct utility by Ted Unangst
-
